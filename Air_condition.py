@@ -12,7 +12,7 @@ from PIL import Image
 image = Image.open('ac.png')
 
 st.image(image, caption=('Air Conditioner'),
-         use_column_width=True,format='PNG')
+         use_column_width=True)
 
 
 
