@@ -151,6 +151,6 @@ if st.button("fan speed"):
 
 image=Image.open('remote.jpg')
 st.image(image, caption='remote',
-         use_column_width=True,format='PNG')
+         use_column_width=True)
 
 
