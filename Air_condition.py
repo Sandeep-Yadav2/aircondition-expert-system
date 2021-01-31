@@ -132,8 +132,8 @@ Ac.input['temp']=(utemp)
 dpoint = st.number_input('ENTER DEW POINT',min_value=11,max_value=20)
 Ac.input['dew_point']=(dpoint)
 
-tdiff = st.number_input('ENTER Temperature Diff',min_value=0,max_value=3)
-Ac.input['tdiff']=(float(tdiff))
+tdiff = st.number_input('ENTER Temperature Diff')
+Ac.input['tdiff']=((tdiff))
 
 Ac.compute()
 if st.checkbox("comp speed"):
